@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>login</title>
+</head>
+<body bgcolor="cyan">
+    <center>
+    <form method="post" action="login_form">
+        {% csrf_token %}
+   
+    <P>EMAIL</P>
+    <input type="email" name="email" >
+    <br>
+    
+    <P>PASSWORD</P>
+    <input type="password" name="password" >
+
+    <br>
+    <input type="submit" value="submit">
+    </form>
+</center>
